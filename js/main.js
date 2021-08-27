@@ -14,7 +14,7 @@ var cognomeUtente = prompt("Inserisci il tuo cognome");
 
 // transformo la prima lettera del cognome inserito dall'utente in maiuscolo
 
-cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.substring(1);
+cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.substring(1).toLowerCase();
 
 // aggiungo il cognome inserito dall'utente nell'array
 
